@@ -30,7 +30,10 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">ABOUT</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#facial">FACIAL</a>
           </li>
           <li class="nav-item">
@@ -42,14 +45,15 @@
           <li class="nav-item">
             <a class="nav-link" href="#contact">CONTACT US</a>
           </li>
-          <a class="nav-link" href="./index.html">ENGLISH</a>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">ENGLISH</a>
           </li>
         </ul>
       </div>
     </nav>
   </section>
 
-  <!-- About Section -->
+  <!-- About / Summary Section -->
   <!-- Photo by Erol Ahmed on Unsplash -->
   <section class="about" id="about">
     <div class="container-flex">
@@ -59,10 +63,44 @@
     </div>
   </section>
 
+  <section class="py-3" id="summary">
+    <div class="container">
+      <div class="card-deck">
+        <div class="card mx-4">
+          <a href="#facial">
+            <!-- Photo by Icons8 team on Unsplash -->
+            <img src="images/facial.jpg" alt="" class="img-fluid card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">FACIAL SERVICES</h5>
+            </div>
+          </a>
+        </div>
+        <div class="card mx-4">
+          <a href="#pm">
+            <!-- Photo by Rafaella Mendes Diniz on Unsplash -->
+            <img src="images/pm.jpg" alt="" class="img-fluid card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">PERMANENT MAKEUP</h5>
+            </div>
+          </a>
+        </div>
+        <div class="card mx-4">
+          <a href="#eyelash">
+            <!-- Photo by Jose Martinez on Unsplash -->
+            <img src="images/eyelash.jpg" alt="" class="img-fluid card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">EYELASH SERVICES</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Facial Section -->
   <section class="facial" id="facial">
     <div class="container-fluid" id="facial-div">
-      <h3>FACIAL</h3>
+      <h3>FACIAL SERVICES</h3>
       <div class="row">
         <div class="feature-box col-lg-3 col-sm-6">
           <h5 class="facial-title">베이직 케어</h5>
@@ -137,7 +175,7 @@
   <!-- Eyelash Section-->
   <section class="eyelash" id="eyelash">
     <div class="container-fluid" id="eyelash-div">
-      <h3>EYELASH</h3>
+      <h3>EYELASH SERVICES</h3>
       <h6 class="text-muted">리터치 $60</h6>
       <div class="row">
         <div class="feature-box col-lg-3 col-sm-6">
@@ -166,8 +204,10 @@
       <h3>CONTACT US</h3>
       <div class="row">
         <div class="contact-feature-box col-lg-6">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3171.6069805356374!2d-121.98860838469443!3d37.35181227983865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fca0c654274ef%3A0xcb31acd66949ce50!2s1595+Pomeroy+Ave%2C+Santa+Clara%2C+CA+95051!5e0!3m2!1sen!2sus!4v1549238822212"
-            width="520" height="525" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <div class="map-responsive">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3171.6069805356374!2d-121.98860838469443!3d37.35181227983865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fca0c654274ef%3A0xcb31acd66949ce50!2s1595+Pomeroy+Ave%2C+Santa+Clara%2C+CA+95051!5e0!3m2!1sen!2sus!4v1549238822212"
+              frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
         </div>
 
         <div class="contact-feature-box col-lg-6">

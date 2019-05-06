@@ -3,24 +3,57 @@ body {
 }
 
 /* NAVBAR */
-  .navbar {   
-    background-color: #f4f3f3 !important;
-    padding: 15px;
-  }
-  .navbar-brand {
-    font-size: 1.5rem;
-  }
-  .navbar-brand, .text-muted, .underline, h5, footer {
-    font-family: 'EB Garamond', serif;
-  }
-  
+.navbar {
+  background-color: #f4f3f3 !important;
+  padding: 15px;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.navbar-brand, .text-muted, .underline, h5, footer {
+  font-family: 'EB Garamond', serif;
+}
+
 /* About */
+.card {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.card a {
+  text-decoration: none;
+  color: black;
+}
+
+.card:hover {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.card-title {
+  text-align: center;
+  font-family: 'Lato', sans-serif !important;
+  margin-bottom: 0;
+}
+
+.col {
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
 .container-flex {
   height: 45vh !important;
   position: relative;
   display: flex;
   width: 100%;
 }
+
 .responsive-image {
   position: relative;
   background-repeat: no-repeat;
@@ -33,6 +66,7 @@ body {
   width: 100%;
   background-size: 100%;
 }
+
 .overlay {
   z-index: 1;
   background-color: rgba(4, 11, 12, 0.5);
@@ -40,8 +74,9 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%; 
+  height: 100%;
 }
+
 .centered {
   position: absolute;
   top: 50%;
@@ -53,19 +88,22 @@ body {
 }
 
 /* FACIAL, PM, EYELASH */
-#facial, #pm, #eyelash, #contact {
+#summary, #facial, #pm, #eyelash, #contact {
   margin: 15px auto !important;
   padding: 10px;
 }
+
 .facial-title,
 .makeup-title,
 .eyelash-title {
   background-color: #f4f3f3 !important;
-  margin: 15px auto;
+  margin: 10px auto;
 }
+
 .text-muted {
   padding: 0px !important;
 }
+
 .feature-box {
   text-align: center;
 }
@@ -74,40 +112,58 @@ body {
 .underline {
   text-decoration: underline;
 }
+
 .contact-feature-box {
   text-align: center;
   align-self: center;
 }
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
 iframe {
-  padding: 10px;
+  padding: 3px;
 }
 
 /* FOOTER */
 footer {
-  padding: 20px!important;
+  padding: 20px !important;
   text-align: center;
   background-color: #f4f3f3;
 }
+
 i {
   margin: 15px;
   color: black;
   margin-bottom: 30px;
 }
+
 .fa-yelp:hover {
   color: #c41200;
 }
+
 .fa-phone:hover {
   color: green;
 }
+
 .fa-envelope:hover {
   color: #D44638;
 }
 
-@media (max-width: 550px) {
-  iframe {
-    width: 45vh;
-    height: 35vh;
+@media (max-width: 320px) {
+  .navbar-brand {
+    font-size: 1rem;
   }
- 
 }
-
