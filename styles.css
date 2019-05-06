@@ -1,0 +1,113 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+/* NAVBAR */
+  .navbar {   
+    background-color: #f4f3f3 !important;
+    padding: 15px;
+  }
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  .navbar-brand, .text-muted, .underline, h5, footer {
+    font-family: 'EB Garamond', serif;
+  }
+  
+/* About */
+.container-flex {
+  height: 45vh !important;
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+.responsive-image {
+  position: relative;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-position: center center;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  background-size: 100%;
+}
+.overlay {
+  z-index: 1;
+  background-color: rgba(4, 11, 12, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; 
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5rem;
+  text-align: center;
+  z-index: 2;
+}
+
+/* FACIAL, PM, EYELASH */
+#facial, #pm, #eyelash, #contact {
+  margin: 15px auto !important;
+  padding: 10px;
+}
+.facial-title,
+.makeup-title,
+.eyelash-title {
+  background-color: #f4f3f3 !important;
+  margin: 15px auto;
+}
+.text-muted {
+  padding: 0px !important;
+}
+.feature-box {
+  text-align: center;
+}
+
+/* CONTACT */
+.underline {
+  text-decoration: underline;
+}
+.contact-feature-box {
+  text-align: center;
+  align-self: center;
+}
+iframe {
+  padding: 10px;
+}
+
+/* FOOTER */
+footer {
+  padding: 20px!important;
+  text-align: center;
+  background-color: #f4f3f3;
+}
+i {
+  margin: 15px;
+  color: black;
+  margin-bottom: 30px;
+}
+.fa-yelp:hover {
+  color: #c41200;
+}
+.fa-phone:hover {
+  color: green;
+}
+.fa-envelope:hover {
+  color: #D44638;
+}
+
+@media (max-width: 550px) {
+  iframe {
+    width: 45vh;
+    height: 35vh;
+  }
+ 
+}
+
