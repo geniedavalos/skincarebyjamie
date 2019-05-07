@@ -1,50 +1,41 @@
 body {
   font-family: 'Lato', sans-serif;
+  text-align: center;
 }
 
 /* NAVBAR */
 .navbar {
-  background-color: #f4f3f3 !important;
   padding: 15px;
+}
+
+.navbar .nav-item {
+  padding-right: 1rem;
 }
 
 .navbar-brand {
   font-size: 1.5rem;
 }
 
-.navbar-brand, .text-muted, .underline, h5, footer {
+.navbar-brand, .text-muted, h5, footer {
   font-family: 'EB Garamond', serif;
+  font-weight: 400;
 }
 
 /* About */
-.card {
-  -webkit-transition: 0.4s ease;
-  transition: 0.4s ease;
+#pm, #contact {
+  background-color: #f4f3f3;
 }
 
-.card a {
-  text-decoration: none;
-  color: black;
+.intro {
+  text-align: center !important;
 }
 
-.card:hover {
-  -webkit-transform: scale(1.08);
-  transform: scale(1.08);
-}
-
-.card-body {
-  padding: 1rem;
-}
-
-.card-title {
-  text-align: center;
-  font-family: 'Lato', sans-serif !important;
-  margin-bottom: 0;
-}
-
-.col {
-  padding-top: 15px;
-  padding-bottom: 5px;
+.section-img {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  padding-top: 10px;
 }
 
 .container-flex {
@@ -88,31 +79,11 @@ body {
 }
 
 /* FACIAL, PM, EYELASH */
-#summary, #facial, #pm, #eyelash, #contact {
-  margin: 15px auto !important;
-  padding: 10px;
-}
-
-.facial-title,
-.makeup-title,
-.eyelash-title {
-  background-color: #f4f3f3 !important;
-  margin: 10px auto;
-}
-
-.text-muted {
-  padding: 0px !important;
-}
-
-.feature-box {
-  text-align: center;
+#facial, #pm, #eyelash, #contact {
+  padding: 20px !important;
 }
 
 /* CONTACT */
-.underline {
-  text-decoration: underline;
-}
-
 .contact-feature-box {
   text-align: center;
   align-self: center;
@@ -134,14 +105,14 @@ body {
 }
 
 iframe {
-  padding: 3px;
+  padding: 3px !important;
+  border: 0;
 }
 
 /* FOOTER */
 footer {
   padding: 20px !important;
   text-align: center;
-  background-color: #f4f3f3;
 }
 
 i {
