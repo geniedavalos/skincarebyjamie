@@ -21,19 +21,19 @@ body {
   font-weight: 400;
 }
 
+.text-muted {
+  padding-top: 10px;
+}
+
 /* About */
 #pm, #contact {
   background-color: #f4f3f3;
 }
 
-.intro {
-  text-align: center !important;
-}
-
 .section-img {
   position: relative;
-  height: 300px;
-  width: 300px;
+  height: 280px;
+  width: 280px;
   border-radius: 50%;
   padding-top: 10px;
 }
@@ -84,11 +84,6 @@ body {
 }
 
 /* CONTACT */
-.contact-feature-box {
-  text-align: center;
-  align-self: center;
-}
-
 .map-responsive {
   overflow: hidden;
   padding-bottom: 56.25%;
@@ -105,7 +100,7 @@ body {
 }
 
 iframe {
-  padding: 3px !important;
+  padding: 5px !important;
   border: 0;
 }
 
